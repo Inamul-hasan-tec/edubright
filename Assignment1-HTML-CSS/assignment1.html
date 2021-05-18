@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assignment1.css">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <title>filter page</title>
+</head>
+<body style="background-color: #fbfbfb;">
+    <header>
+        <span >
+            <a href="./assignment1.html" class="logo">e!</a>
+        </span>
+        <span class="login-signup">
+             <a href="#" class="login">Login</a>
+             <a href="#" class="account">Creat an account</a>
+        </span>
+
+    </header>
+    <h1 id="head">
+        Breakfast Places in Bangalore
+    </h1>
+    <div class="section">
+        <div class="left"  >
+         <div>
+             <h1 >Filters</h1>
+             <h3>Select Location</h3>
+
+         </div>
+         
+         <select style="margin-bottom: 20px;" name="place" id="Places">
+             <option value="bangalore">Bangalore</option>
+             <option value="mumbai">Mumbai</option>
+             <option value="delhi">Delhi</option>
+             <option value="indore">Indore</option>
+             <option value="chenai">Chenai</option>
+             <option value="Thiruvanathapuram">Thiruvanathapuram</option>
+             <option value="mysore">Mysore</option>
+         </select>
+         <h3 style="margin-top:25px ;">cuisine</h3>
+         <div>
+             <input type="checkbox" name="north indian" id="1">
+             <label for="1">North Indian</label>
+         </div>
+         <div>
+            <input type="checkbox" name="north indian" id="1">
+            <label for="1">South Indian</label>
+        </div>
+        <div>
+            <input type="checkbox" name="north indian" id="1">
+            <label for="1">Chinese</label>
+        </div>
+        <div>
+            <input type="checkbox" name="north indian" id="1">
+            <label for="1">Fast Food</label>
+        </div>
+        <div>
+            <input type="checkbox" name="north indian" id="1">
+            <label for="1">street food</label>
+        </div>
+        <h3 style="margin-top:30px ;">Cost For Two</h3>
+        <div>
+            <input type="radio" name="price" id="1" checked >
+            <label for="1">200-400</label>
+        </div>
+        <div>
+            <input type="radio" name="price" id="1">
+            <label for="1">400-600</label>
+        </div>
+        <div>
+            <input type="radio" name="price" id="1">
+            <label for="1">600-800</label>
+        </div>
+        <div>
+            <input type="radio" name="price" id="1">
+            <label for="1">1000-1200</label>
+        </div>
+        <div>
+            <input type="radio" name="price00" id="1">
+            <label for="1">1500-1700</label>
+        </div>
+           
+        <h3 style="margin-top:35px;">sort</h3>
+       <div>
+            <input type="radio" name="prices" id="lowhi" checked>
+            <label for="1">Price low to high</label>
+        </div>
+        <div>
+            <input type="radio" name="prices" id="hilow">
+            <label for="1">Price high to low</label>
+        </div>
+        </div>
+        <div class="right" >
+              <div id="resturant1"><img class="img1" src="images/empire.png" alt="here is the picture of empire" style="padding: 25px
+                ;width: 160px;height: 160px;margin-left: 10px;">
+                <span style="display: inline-block;position: relative;
+                bottom: 105px;">
+                    <h2 style="font-size: 35px;color: #25407a;" >Empire resturant</h2>
+                    <div style="font-size: 20px;font-weight: bolder;color: #25407a;">Fort</div>
+                    <h5 style="color:#25407a ;">#78, Central Street, Off, Infantry Rd, Shivaji Nagar, Bengaluru, 560001</h5>
+                    
+                </span>
+              <hr style="border:1px solid #dbdce2;position: relative;bottom: 25px;width: 85%;margin-left: 36px;">
+              <div style="color:#25407a ;position:relative; 
+              left:45px; bottom: 15px; font-weight: bolder;">Cuisines: <span>Multicuisine</span></div>
+              <div style="color:#25407a ;position:relative; 
+              left:45px; bottom: 15px; font-weight: bolder;">Cost for two: <span>&#8377;700</span></div>
+              
+
+              </div>
+              <div id="resturant2" ><img src="images/breakfast-1804436_640.jpg" alt="Here is a picture" style="padding: 25px
+                ;width: 160px;height: 160px;margin-left: 10px;border-radius: 33%;margin-top: -3px;">
+               <span style="display: inline-block;position: relative;
+               bottom: 105px;">
+                   <h2 style="font-size: 35px;color:#25407a ;">Hard Rock Cafe</h2>
+                   <div style="font-size: 20px;font-weight: bolder;color: #25407a;">Fort</div> 
+                   <h5 style="color:#25407a ;">40, St Marks Rd, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560001
+                </h5>
+               </span> 
+                <hr style="border:1px solid #d9dae0;position: relative;bottom: 25px;width: 85%;margin-left: 36px;">
+                <div style="color:#25407a ;position:relative; 
+              left:45px; bottom: 15px; font-weight: bolder;">Cuisines: <span>Cafe</span></div>
+              <div style="color:#25407a ;position:relative; 
+              left:45px; bottom: 15px; font-weight: bolder;">Cost for two: <span>&#8377;300</span></div>
+          
+              </div>
+
+        </div>
+        <div class="pageini">
+            <a  style="border-radius: 7px;
+             border: solid 1px ;
+             background-color: #fcf9fb;padding: 4px 10px 3px 10px" href="#">&lt</a>
+            
+            <a  href="#" style="border-radius: 7px;
+             border: solid 1px ;
+             background-color:#eedeea;padding: 4px 14px 3px 10px;">1</a>
+            <a   href="#" style="border-radius: 7px;
+             border: solid 1px;
+             background-color: #eedeea;padding: 4px 10px 3px 10px;">2</a>
+            <a  href="#" style="border-radius: 7px;
+             border: solid 1px ;;padding: 5px 12px 3px 13px;
+             background-color:#eedeea;padding: 4px 10px 3px 10px;">3</a>
+            <a  href="#"  style=" border-radius: 7px;
+             border: solid 1px ;background-color: #fffdfe;
+            
+             padding: 4px 10px 3px 10px;
+            ">&gt</a>
+        </div>
+
+        
+    </div>
+    
+</body>
+</html>

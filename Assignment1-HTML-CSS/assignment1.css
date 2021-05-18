@@ -1,0 +1,124 @@
+ *{
+     padding: 0px;
+     margin: 0px;
+     
+     font-family:poppins ;
+     
+ }
+ header{
+    width: 100%;
+    height: 80px;
+    background-color: red;
+    margin-bottom: 6px;
+    position: relative;
+     
+}
+.logo{
+    color: red;
+    background-color: white;
+    border-radius: 50%;
+    font-family:poppins ;
+    text-decoration: none;
+    font-size: 33px;
+    font-weight: 800;
+    padding: 3px 13px;
+    position:absolute;
+    top: 16px;
+    left: 112px;
+    display: inline-block;
+    
+    left: 60px;
+}
+#head{
+    margin-bottom: 4px;
+    margin: 37px 25px 27px 113px;
+    font-weight: bold;
+    color:rgb(63, 31, 150);
+    
+   
+
+
+  
+}
+h1{
+    padding:10px;
+    color:rgb(63, 31, 150);
+     font-size: 30px;
+}
+.login-signup
+{
+    position: absolute;
+    right: 115px;
+    top: 29px;
+    
+
+}
+.login{
+    color: white;
+    text-decoration: none;
+    width: 43px;
+    height: 23px;
+    margin: 12px 26px 11px 0;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+   
+}
+.account{
+    color: white;
+    text-decoration: none;
+    border: 1px white solid;
+    padding: 10px;
+    word-spacing: normal;
+    border-radius: 2%;
+}
+.section{
+    position: relative;
+    
+    
+}
+.left{
+    width: 260px;
+  height: 682px;
+  margin: 27px 45px 8px 113px;
+  padding: 18px 24px 28px 25px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.26);
+  background-color: #ffffff;
+}
+#resturant1{
+    width: 794px;
+  height: 291px;
+  position: absolute;
+  left: 450px;
+  top: 0px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.26);
+  background-color: #ffffff;
+}
+#resturant2{
+    width: 794px;
+  height: 291px;
+  position: absolute;
+  left: 450px;
+  top: 330px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.26);
+  background-color: #ffffff;
+}
+.pageini{
+    position: absolute;
+    right:40%;
+    bottom: 40px;
+     
+    
+    
+   
+}
+.left{
+    background-color: #ffff;
+    color: #192f60;
+}
